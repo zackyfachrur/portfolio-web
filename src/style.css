@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .center {
+    @apply flex justify-center items-center
+  }
+
+  .animate {
+    @apply transition-all duration-100 ease-in
+  }
+}
+
 body{
  margin: 0;
  padding: 0;

@@ -2,10 +2,17 @@
 export default {
   content: ["./src/**/*.{html,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow: {
+        "2xl": "0 10px 8px rgb(67 56 202)",
+      },
+    },
+    container: {
+      center: true,
+    },
     fontFamily: {
-      'quicksand' : '"Quicksand", sans-serif',
-    }
+      quicksand: '"Quicksand", sans-serif',
+    },
   },
   plugins: [],
 };
