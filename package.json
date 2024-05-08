@@ -11,6 +11,7 @@
     "tailwind": "npx tailwindcss -i ./src/style.css -o ./src/tailwind.css --watch"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.0",

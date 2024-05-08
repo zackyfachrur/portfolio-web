@@ -3,9 +3,9 @@ import { FaHouse, FaUser, FaKeyboard, FaPaperclip } from "react-icons/fa6";
 
 const NavbarNav = () => {
   return (
-    <nav className="container w-full p-5 font-bold center gap-80">
+    <nav className="container p-5 font-bold xl:w-full md:w-full center gap-80">
       <h1
-        className="text-xl font-bold center"
+        className="font-bold xl:text-xl md:w-96 center"
         onClick={() => (
           window.open("https://react-icons.github.io/react-icons/icons/fa6/"),
           "_blank"
