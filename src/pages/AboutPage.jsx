@@ -1,9 +1,7 @@
 import '../style.css'
 
 const AboutPage = () => {
- return (
-  console.log("Test")
- )
+ return <></>;
 }
 
 export default AboutPage
