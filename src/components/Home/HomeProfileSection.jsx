@@ -3,13 +3,8 @@ import Profile from "../../assets/Profile-Photo.png";
 
 const ProfileSectionOfHome = () => {
   return (
-    <div className="flex-col w-full h-screen gap-5 center">
-      <div className="center">
-        <h1 className="text-2xl font-bold center before:m-2 before:w-16 before:h-1 before:bg-indigo-700">
-          Profile
-        </h1>
-      </div>
-      <div className="center h-96 gap-72">
+    <div className="flex-col h-full max-w-screen-xl gap-5 mb-20 center">
+      <div className="flex-row p-20 center h-96 gap-72 xl:w-full md:w-screen md:max-w-screen-lg md:gap-52">
         <img
           className="w-48 transition-all duration-100 ease-in rounded-full hover:cursor-pointer grayscale hover:grayscale-0"
           src={Profile}
