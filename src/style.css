@@ -13,9 +13,11 @@
 }
 
 body{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #34403A;
+  color: #D4F5E0;
 }
 
 body::-webkit-scrollbar {
@@ -23,14 +25,14 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #285238; 
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #4338ca; 
+  background: #18FF6D; 
   border-radius: 20px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background: #312e81; 
+  background: #138A36; 
 }

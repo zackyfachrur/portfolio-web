@@ -1,12 +1,12 @@
 import "../../tailwind.css";
 import Wave from "react-wavify";
 
-const WaveOfHome = () => {
+const WaveOfAbout = () => {
   return (
     <div>
       <Wave
         mask="url(#mask)"
-        fill="#4338ca"
+        fill="#2f5e41"
         options={{
           height: 40,
           amplitude: 40,
@@ -28,4 +28,4 @@ const WaveOfHome = () => {
   );
 };
 
-export default WaveOfHome;
+export default WaveOfAbout;
