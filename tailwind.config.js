@@ -1,6 +1,8 @@
+// eslint-disable-next-line no-undef
+const flowbite = require("flowbite-react/tailwind");
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,jsx}"],
+  content: ["./src/**/*.{html,jsx}", flowbite.content()],
   theme: {
     extend: {
       colors: {
@@ -12,6 +14,9 @@ export default {
         "custom-green-lime": "#04E824",
         "custom-green-soft": "#18FF6D",
       },
+      color: {
+        dark: "bg-custom-green-dark",
+      },
     },
     container: {
       center: true,
@@ -20,6 +25,5 @@ export default {
       quicksand: '"Quicksand", sans-serif',
     },
   },
-  plugins: [],
+  plugins: [flowbite.plugin()],
 };
-

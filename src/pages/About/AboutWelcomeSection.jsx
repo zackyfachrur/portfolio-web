@@ -34,7 +34,7 @@ const Contact = () => {
       className="absolute flex flex-row items-center justify-center gap-1"
       data-aos="fade"
     >
-      <FaLinkedinIn className="p-1 text-3xl text-white transition-all duration-100 ease-in border-2 rounded-lg bg-blue-700 border-blue-700 hover:text-blue-700 hover:bg-white hover:cursor-pointer" />
+      <FaLinkedinIn className="p-1 text-3xl text-white transition-all duration-100 ease-in bg-blue-700 border-2 border-blue-700 rounded-lg hover:text-blue-700 hover:bg-white hover:cursor-pointer" />
       <FaGithub className="p-1 text-3xl text-white transition-all duration-100 ease-in bg-black border-2 border-black rounded-lg hover:text-black hover:bg-white hover:cursor-pointer" />
       <FaWhatsapp className="p-1 text-3xl text-white transition-all duration-100 ease-in bg-green-500 border-2 border-green-500 rounded-lg hover:bg-white hover:text-green-600 hover:cursor-pointer" />
     </div>
@@ -44,7 +44,7 @@ const Contact = () => {
 const WelcomeSectionOfAbout = () => {
   const [contactLogo, setContactLogo] = useState(false);
   return (
-    <div className="container w-full gap-56 p-20 center h-96">
+    <div className="container w-full gap-56 pt-20 center h-96">
       <div
         className="flex flex-col gap-3 font-bold w-80"
         data-aos="fade-right"
@@ -62,7 +62,7 @@ const WelcomeSectionOfAbout = () => {
         <div className="flex gap-2">
           <div className="flex flex-col gap-2">
             <button
-              className="px-3 py-1 text-sm font-bold text-center transition-all duration-100 ease-in rounded-full text-custom-green-light bg-custom-green-dark rounded-lgborder-custom-green-dark hover:scale-95 hover"
+              className="px-3 py-1 text-sm font-bold text-white border-2 rounded-full bg-custom-green-dark hover:scale-95 animate drop-shadow-1xlIndigo hover:drop-shadow-2xlIndigo border-custom-green-dark"
               onClick={() => setContactLogo(!contactLogo)}
             >
               Contact Me
@@ -71,7 +71,7 @@ const WelcomeSectionOfAbout = () => {
           </div>
         </div>
       </div>
-      <div className="center w-64" data-aos="fade-left" data-aos-duration="600">
+      <div className="w-64 center" data-aos="fade-left" data-aos-duration="600">
         <img
           className="w-screen animate"
           id="programmer"
