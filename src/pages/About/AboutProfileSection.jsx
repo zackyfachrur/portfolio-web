@@ -3,7 +3,7 @@ import Profile from "../../assets/Profile-Photo.png";
 
 const ProfileSectionOfAbout = () => {
   return (
-    <div className="flex-col h-full max-w-screen-xl gap-5 mb-20 center">
+    <div className="flex-col h-full gap-5 mb-20 center">
       <div className="flex-row p-20 center h-96 gap-72 xl:w-full md:w-screen md:max-w-screen-lg md:gap-52">
         <div data-aos="fade-right" data-aos-duration="600">
           <img
@@ -29,7 +29,9 @@ const ProfileSectionOfAbout = () => {
             really Interested in Web Development and Dekstop .NET Development.
           </p>
           <button className="w-32 px-3 py-1 text-sm font-bold text-white rounded-full bg-custom-green-dark hover:scale-95 animate drop-shadow-1xlIndigo hover:drop-shadow-2xlIndigo">
-            Download CV
+            <a href="src\assets\pdf\Resume.pdf" target="_blank">
+              Download CV
+            </a>
           </button>
         </div>
       </div>

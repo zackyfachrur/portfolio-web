@@ -1,10 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\xampp\\htdocs\\myportfolio\\",
+  "WorkspaceRootPath": "C:\\laragon\\www\\myportfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\myportfolio\\src\\components\\Home\\HomeWave.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Home\\HomeWave.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\myportfolio\\src\\components\\FooterFoot.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\FooterFoot.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\laragon\\www\\myportfolio\\src\\components\\NavbarNav.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\NavbarNav.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\myportfolio\\src\\components\\Home\\HomeWave.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +21,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavbarNav.jsx",
+              "DocumentMoniker": "C:\\laragon\\www\\myportfolio\\src\\components\\NavbarNav.jsx",
+              "RelativeDocumentMoniker": "src\\components\\NavbarNav.jsx",
+              "ToolTip": "C:\\laragon\\www\\myportfolio\\src\\components\\NavbarNav.jsx",
+              "RelativeToolTip": "src\\components\\NavbarNav.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-20T22:49:56.417Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FooterFoot.jsx",
+              "DocumentMoniker": "C:\\laragon\\www\\myportfolio\\src\\components\\FooterFoot.jsx",
+              "RelativeDocumentMoniker": "src\\components\\FooterFoot.jsx",
+              "ToolTip": "C:\\laragon\\www\\myportfolio\\src\\components\\FooterFoot.jsx",
+              "RelativeToolTip": "src\\components\\FooterFoot.jsx",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-20T22:49:54.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeWave.jsx",
               "DocumentMoniker": "C:\\xampp\\htdocs\\myportfolio\\src\\components\\Home\\HomeWave.jsx",
-              "RelativeDocumentMoniker": "src\\components\\Home\\HomeWave.jsx",
+              "RelativeDocumentMoniker": "..\\..\\..\\xampp\\htdocs\\myportfolio\\src\\components\\Home\\HomeWave.jsx",
               "ToolTip": "C:\\xampp\\htdocs\\myportfolio\\src\\components\\Home\\HomeWave.jsx",
-              "RelativeToolTip": "src\\components\\Home\\HomeWave.jsx",
+              "RelativeToolTip": "..\\..\\..\\xampp\\htdocs\\myportfolio\\src\\components\\Home\\HomeWave.jsx",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-09T18:13:59.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T18:13:59.334Z"
             }
           ]
         }

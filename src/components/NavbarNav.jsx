@@ -6,55 +6,46 @@ import {
   FaPaperclip,
 } from "react-icons/fa6";
 
+import { Button } from "flowbite-react";
+
 const NavbarNav = () => {
   return (
-    <nav className="container p-5 font-bold xl:w-full md:w-full center gap-80">
-      <h1
-        className="font-bold xl:text-xl md:w-96 center"
-        onClick={() => (
-          window.open("https://react-icons.github.io/react-icons/icons/fa6/"),
-          "_blank"
-        )}
-      >
-        Portfolio | ZF.
-      </h1>
+    <nav className="fixed z-50 p-5 font-bold ml-72 xl:w-full md:w-full center">
       <ul className="gap-5 center">
-        <li className="flex items-center justify-center gap-1">
-          <FaUser />
-          <span
-            className="flex flex-col-reverse justify-center pt-1 transition-all duration-100 ease-in items-centerhover:text-custom-green-medium hover:cursor-pointer before:h-1 before:w-full before:hover:bg-custom-green-medium hover:text-custom-green-medium before:transition-all before:ease-in before:duration-100"
+        <Button.Group className="text-xl font-bold drop-shadow-xl">
+          <Button
+            color="success"
+            className="bg-custom-green-dark"
             onClick={() => window.location.assign("/")}
           >
+            <FaUser className="w-4 h-4 mr-3" />
             About
-          </span>
-        </li>
-        <li className="flex items-center justify-center gap-1">
-          <FaKeyboard />
-          <span
-            className="flex flex-col-reverse justify-center pt-1 transition-all duration-100 ease-in items-centerhover:text-custom-green-medium hover:cursor-pointer before:h-1 before:w-full before:hover:bg-custom-green-medium hover:text-custom-green-medium before:transition-all before:ease-in before:duration-100"
+          </Button>
+          <Button
+            color="success"
+            className="bg-custom-green-dark"
             onClick={() => window.location.assign("/portfolio")}
           >
+            <FaKeyboard className="w-4 h-4 mr-3" />
             Portfolio
-          </span>
-        </li>
-        <li className="flex items-center justify-center gap-1">
-          <FaPaperclip />
-          <span
-            className="flex flex-col-reverse justify-center pt-1 transition-all duration-100 ease-in items-centerhover:text-custom-green-medium hover:cursor-pointer before:h-1 before:w-full before:hover:bg-custom-green-medium hover:text-custom-green-medium before:transition-all before:ease-in before:duration-100"
+          </Button>
+          <Button
+            color="success"
+            className="bg-custom-green-dark"
             onClick={() => window.location.assign("/resume")}
           >
+            <FaPaperclip className="w-4 h-4 mr-3" />
             Resume
-          </span>
-        </li>
-        <li className="flex items-center justify-center gap-1">
-          <FaMobileScreen />
-          <span
-            className="flex flex-col-reverse justify-center pt-1 transition-all duration-100 ease-in items-centerhover:text-custom-green-medium hover:cursor-pointer before:h-1 before:w-full before:hover:bg-custom-green-medium hover:text-custom-green-medium before:transition-all before:ease-in before:duration-100"
+          </Button>
+          <Button
+            color="success"
+            className="bg-custom-green-dark"
             onClick={() => window.location.assign("/contact")}
           >
+            <FaMobileScreen className="w-4 h-4 mr-3" />
             Contact
-          </span>
-        </li>
+          </Button>
+        </Button.Group>
       </ul>
     </nav>
   );
