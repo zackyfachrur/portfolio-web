@@ -44,11 +44,11 @@ const Contact = () => {
 const WelcomeSectionOfAbout = () => {
   const [contactLogo, setContactLogo] = useState(false);
   return (
-    <div className="container w-full gap-56 pt-20 center h-96">
+    <div className="max-[1600px]:gap-56 max-[1600px]:flex-row max-[965px]:gap-8 max-[965px]:mt-20 max-[965px]:mb-20 max-[965px]:flex-col w-full pt-20 center">
       <div
         className="flex flex-col gap-3 font-bold w-80"
         data-aos="fade-right"
-        data-aos-duration="600"
+        data-aos-duration="800"
       >
         <div className="flex flex-col justify-center">
           <h1 className="text-2xl">
@@ -71,7 +71,7 @@ const WelcomeSectionOfAbout = () => {
           </div>
         </div>
       </div>
-      <div className="w-64 center" data-aos="fade-left" data-aos-duration="600">
+      <div className="w-64 center" data-aos="fade-left" data-aos-duration="800">
         <img
           className="w-screen animate"
           id="programmer"

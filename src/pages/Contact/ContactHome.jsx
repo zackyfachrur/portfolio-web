@@ -15,17 +15,17 @@ const sendingWhatsapp = () => {
 const ContactHome = () => {
   return (
     <>
-      <div className="flex-row w-full h-screen center">
-        <img src={BusinessMan} alt="Phone Image" className="w-1/3" />
+      <div className="max-[1600px]:flex-row max-[1005px]:flex-col max-[1005px]:pt-80 max-[1005px]:mb-80 max-[995px]:mb-72 -z-50 w-full h-screen center">
+        <img src={BusinessMan} alt="Phone Image" className="w-96" />
         <form
           action="/"
           onSubmit={sendingWhatsapp}
-          className="flex flex-col self-end w-1/2 px-32 py-20 gap-9 bg-custom-green-dark/30 rounded-t-3xl "
+          className="flex flex-col max-[1600px]:self-end max-[1600px]:rounded-t-3xl max-[1005px]:self-center px-32 py-20 gap-9 max-[1005px]:rounded-t-none max-[1005px]:rounded-3xl max-[1005px]:flex-col  max-[1005px]:-mt-5 max-[890px]:w-4/5 max-[715px]:bg-transparent center bg-custom-green-dark/30"
         >
-          <h1 className="self-center text-xl font-bold text-white">
-            ✉ Type a messages or any question ?
+          <h1 className="self-center max-[1600px]:text-3xl max-[510px]:text-xl font-bold text-white w-96 center">
+            Contact Us
           </h1>
-          <div className="flex flex-col gap-2 px-20 py-10 bg-white rounded-3xl text-custom-green-dark">
+          <div className="flex flex-col gap-2 px-10 py-10 bg-white w-96 rounded-3xl text-custom-green-dark">
             <div className="flex flex-col gap-2">
               <label htmlFor="nama" className="text-base font-bold">
                 Name
@@ -72,7 +72,6 @@ const ContactHome = () => {
             </button>
           </div>
         </form>
-        {/* <img src={PhoneImg} alt="Phone Image" className="h-1/2" /> */}
       </div>
     </>
   );

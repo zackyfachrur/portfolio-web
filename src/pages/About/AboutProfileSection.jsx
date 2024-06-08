@@ -4,8 +4,8 @@ import Profile from "../../assets/Profile-Photo.png";
 const ProfileSectionOfAbout = () => {
   return (
     <div className="flex-col h-full gap-5 mb-20 center">
-      <div className="flex-row p-20 center h-96 gap-72 xl:w-full md:w-screen md:max-w-screen-lg md:gap-52">
-        <div data-aos="fade-right" data-aos-duration="600">
+      <div className="max-[1600px]:flex-row max-[1600px]:gap-72 max-[965px]:gap-10 max-[965px]:flex-col max-[965px]:mt-20 max-[965px]:mb-20 p-20 center h-96  xl:w-full md:w-screen md:max-w-screen-lg ">
+        <div data-aos="fade-right" data-aos-duration="800">
           <img
             className="rounded-full w-52 hover:cursor-pointer grayscale hover:grayscale-0 animate"
             src={Profile}
@@ -15,7 +15,7 @@ const ProfileSectionOfAbout = () => {
         <div
           className="flex flex-col gap-3"
           data-aos="fade-left"
-          data-aos-duration="600"
+          data-aos-duration="800"
         >
           <div>
             <h1 className="text-xl font-bold">Zacky Fachrur</h1>
