@@ -71,11 +71,7 @@ const MessageButton = () => {
 
 const ContactForm = () => {
   return (
-    <form
-      data-aos="fade"
-      data-aos-duration="600"
-      className="fixed flex flex-col gap-5 p-10 font-bold text-white rounded-lg bg-custom-green-dark text-start w-96 right-20 bottom-10"
-    >
+    <form className="fixed flex flex-col gap-5 p-10 font-bold text-white rounded-lg bg-custom-green-dark text-start max-[1600px]:w-96 max-[473px]:w-72 right-20 bottom-10">
       <h1 className="flex-row gap-4 pb-6 text-xl font-bold border-b-2 center">
         Message Me
         <FaWhatsapp />

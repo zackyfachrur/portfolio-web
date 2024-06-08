@@ -11,7 +11,7 @@ import {
 const FooterFoot = () => {
   return (
     <footer className="flex-col w-full h-full gap-10 font-bold text-white bg-custom-green-dark/30 center">
-      <div className="container flex flex-row items-center justify-center w-full h-full p-10 xl:justify-center md:flex-row md:justify-center md:items-center xl:items-center xl:gap-60 md:gap-40 sm:flex-col sm:gap-20 sm:justify-start sm:items-start">
+      <div className="container flex items-center justify-center w-full h-full p-10 xl:justify-center max-[1600px]:flex-row max-[1600px]:justify-center max-[1600px]:items-center xl:gap-60 md:gap-40 max-[900px]:flex-col max-[900px]:gap-20 max-[900px]:justify-start max-[900px]:items-start">
         <div className="flex flex-col gap-5 w-60">
           <h1 className="text-2xl cursor-default">Portfolio | ZF.</h1>
           <ul className="flex flex-col gap-3 cursor-default w-60">
