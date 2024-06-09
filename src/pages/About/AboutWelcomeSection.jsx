@@ -34,9 +34,20 @@ const Contact = () => {
       className="absolute flex flex-row items-center justify-center gap-1"
       data-aos="fade"
     >
-      <FaLinkedinIn className="p-1 text-3xl text-white transition-all duration-100 ease-in bg-blue-700 border-2 border-blue-700 rounded-lg hover:text-blue-700 hover:bg-white hover:cursor-pointer" />
-      <FaGithub className="p-1 text-3xl text-white transition-all duration-100 ease-in bg-black border-2 border-black rounded-lg hover:text-black hover:bg-white hover:cursor-pointer" />
-      <FaWhatsapp className="p-1 text-3xl text-white transition-all duration-100 ease-in bg-green-500 border-2 border-green-500 rounded-lg hover:bg-white hover:text-green-600 hover:cursor-pointer" />
+      <FaLinkedinIn
+        className="p-1 text-3xl text-white transition-all duration-100 ease-in bg-blue-700 border-2 border-blue-700 rounded-lg hover:text-blue-700 hover:bg-white hover:cursor-pointer"
+        onClick={() =>
+          window.open("https://www.linkedin.com/in/mzackyfa/", "_blank")
+        }
+      />
+      <FaGithub
+        className="p-1 text-3xl text-white transition-all duration-100 ease-in bg-black border-2 border-black rounded-lg hover:text-black hover:bg-white hover:cursor-pointer"
+        onClick={() => window.open("https://github.com/zackyfachrur", "_blank")}
+      />
+      <FaWhatsapp
+        className="p-1 text-3xl text-white transition-all duration-100 ease-in bg-green-500 border-2 border-green-500 rounded-lg hover:bg-white hover:text-green-600 hover:cursor-pointer"
+        onClick={() => window.open("https://wa.me/6287703577988", "_blank")}
+      />
     </div>
   );
 };
