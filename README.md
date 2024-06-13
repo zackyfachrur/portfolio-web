@@ -5,4 +5,4 @@ This website is still in the process of being created
 <img src="./web-page.png">
 
 ## After
-<img src="./web-green.png">
+<img src="./web-new.png">
